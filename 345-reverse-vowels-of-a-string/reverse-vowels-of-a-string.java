@@ -20,7 +20,7 @@ class Solution {
                 end--;
             }
 
-            // if (start<end){
+            
 
             char temp=charArray[start];
             charArray[start]=charArray[end];
@@ -28,7 +28,7 @@ class Solution {
 
             start++;
             end--;
-            // }
+         
             
 
             
