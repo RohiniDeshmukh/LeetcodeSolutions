@@ -20,8 +20,6 @@ class Solution {
                 end--;
             }
 
-            
-
             char temp=charArray[start];
             charArray[start]=charArray[end];
             charArray[end]=temp;
@@ -29,9 +27,6 @@ class Solution {
             start++;
             end--;
          
-            
-
-            
         }
         return new String(charArray);
 
