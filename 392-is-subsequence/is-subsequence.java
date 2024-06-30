@@ -6,12 +6,17 @@ class Solution {
         while(sIndex<s.length()&& tIndex<t.length()){
             if (s.charAt(sIndex)==t.charAt(tIndex)){
                 sIndex++;
-            }
-            
+            } 
             tIndex++;
             
         }
-        return sIndex==s.length();
+        if (sIndex==s.length()){
+            return true;
+        }
+        else{
+            return false;
+        }
+        // return sIndex==s.length();
 
     }
 }
